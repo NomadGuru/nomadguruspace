@@ -6,5 +6,5 @@ export default defineNuxtConfig({
     compatibilityVersion: 4,
   },
   modules: ["@nuxt/content", "@nuxt/fonts", "@nuxt/icon", "@nuxt/image"],
-  css: ["~/assets/css/guru/index.css"],
+  // css: ["~/assets/css/guru/index.css"],
 });
