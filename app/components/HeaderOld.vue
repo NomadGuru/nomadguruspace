@@ -6,12 +6,12 @@
           <img
             data-bs-theme="light"
             alt="NOMAD GURU"
-            src="~/assets/img/logo/black-wide.png"
+            src="/img/logo/black-wide.png"
           /><img
             data-bs-theme="dark"
             alt="NOMAD GURU"
             style="display: none"
-            src="~/assets/img/logo/white-wide.png"
+            src="/img/logo/white-wide.png"
           />
         </a>
         <button
@@ -78,7 +78,7 @@
                 title="Change language"
                 nw-lang="uk"
                 ><img
-                  src="~/assets/img/lang/uk.svg"
+                  src="/img/lang/uk.svg"
                   alt="Українська"
                   style="max-height: 3rem"
                 /><span><span>Українська</span></span></a
@@ -90,7 +90,7 @@
                     href="ru/index.html"
                     nw-lang="uk"
                     ><img
-                      src="~/assets/img/lang/uk.svg"
+                      src="/img/lang/uk.svg"
                       alt="Українська"
                       style="max-height: 3rem"
                     /><span><span>Українська</span></span></a
@@ -100,7 +100,7 @@
                 <li>
                   <a class="dropdown-item" href="/en/index.html" nw-lang="en"
                     ><img
-                      src="~/assets/img/lang/en.svg"
+                      src="/img/lang/en.svg"
                       alt="English"
                       style="max-height: 3rem"
                     /><span><span>English</span></span></a
@@ -110,7 +110,7 @@
                 <li>
                   <a class="dropdown-item" href="/ru/index.html" nw-lang="ru"
                     ><img
-                      src="~/assets/img/lang/ru.svg"
+                      src="/img/lang/ru.svg"
                       alt="Русский"
                       style="max-height: 3rem"
                     /><span><span>Русский</span></span></a
@@ -124,12 +124,12 @@
             <img
               data-bs-theme="light"
               alt="NOMAD GURU"
-              src="~/assets/img/logo/black@2d.png"
+              src="/img/logo/black@2d.png"
             /><img
               data-bs-theme="dark"
               alt="NOMAD GURU"
               style="display: none"
-              src="~/assets/img/logo/white@2d.png"
+              src="/img/logo/white@2d.png"
             />
           </div>
         </div>

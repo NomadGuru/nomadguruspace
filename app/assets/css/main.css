@@ -4,3 +4,15 @@
     light,
     dark --default;
 }
+@plugin "daisyui/theme" {
+  name: "dark";
+  default: true;
+  --root-bg: #1e1e1e;
+}
+
+@theme {
+  --font-sans: "Shantell Sans", cursive;
+  --font-mono:
+    "Ubuntu Mono", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
+}
