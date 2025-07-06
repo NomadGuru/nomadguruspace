@@ -45,7 +45,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: |
-            dist
+            .output/public
             .nuxt
           key: ${{ runner.os }}-nuxt-build-${{ hashFiles('dist') }}
           restore-keys: |
@@ -53,11 +53,12 @@ jobs:
       - name: Install dependencies
         run: bun install
       - name: Static HTML export with Nuxt
-        run: bun run generate
+        # FIXME: Remove NUXT_APP_BASE_URL after setting custom domain
+        run: NUXT_APP_BASE_URL=/nomadguruspace bunx nuxt build --preset github_pages
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist
+          path: ./.output/public
 
   # Deployment job
   deploy:
